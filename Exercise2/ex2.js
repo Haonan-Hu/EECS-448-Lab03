@@ -5,7 +5,7 @@ function previous()
   curImg--;
   if(curImg < 0)
   {
-    curImg = 0;
+    curImg = 5;
   }
   document.images[0].src = collection[curImg];
 }
@@ -15,7 +15,7 @@ function next()
   curImg++;
   if(curImg > 5)
   {
-    curImg = 5;
+    curImg = 0;
   }
   document.images[0].src = collection[curImg];
 }
