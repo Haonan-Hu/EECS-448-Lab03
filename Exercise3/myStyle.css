@@ -1,4 +1,14 @@
 p
 {
-  background-color: blue;
+  background-color: red;
+  color: black;
+  font-family: sans-serif;
+  font-size: 24pt;
+}
+body
+{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: red;
 }
