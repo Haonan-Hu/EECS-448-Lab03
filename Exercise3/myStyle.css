@@ -1,14 +1,61 @@
 p
 {
-  background-color: red;
-  color: black;
+  color: white;
   font-family: sans-serif;
-  font-size: 24pt;
+  font-size: 13pt;
+}
+h1.Kratos
+{
+  color: white;
+  font-family: sans-serif;
+  font-size: 30pt;
+  font-weight: bold;
+  margin-left: 33%;
+}
+p.info
+{
+  color: white;
+  font-family: sans-serif;
+  font-size: 13pt;
+  margin-top: 3%;
+  font-style: italic;
+}
+p.indent
+{
+  color: white;
+  font-family: sans-serif;
+  font-size: 13pt;
+  text-indent: 235px;
+  font-style: italic;
+}
+img.KratosImg
+{
+  float: right;
+  max-width: 100%;
+  width: auto;
 }
 body
 {
   background-image: url(background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+div.background
+{
+  background-color: black;
+  margin-left: 0%;
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+}
+a
+{
+  color: white;
+}
+a:hover
+{
   background-color: red;
+  color: white;
 }
